@@ -1,8 +1,11 @@
 import os
 
+from dotenv import load_dotenv
 
-def get_password() -> str:
-    """Récupère le mot de passe depuis l'environnement, sans l'afficher."""
+load_dotenv()
+
+
+def get_password():
     password = os.getenv("APP_PASSWORD")
     if not password:
         raise RuntimeError("APP_PASSWORD n'est pas configuré")
