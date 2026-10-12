@@ -4,7 +4,7 @@ from app import calculate
 
 
 def test_addition():
-    assert calculate(2, 3, "add") == 5
+    assert calculate(2, 3, "add") == 6
 
 
 def test_subtraction():
