@@ -1,4 +1,4 @@
-# TP 1 - Sécuriser un dépôt Python avec pre-commit
+# Sécuriser un dépôt Python avec pre-commit
 
 Dépôt réalisé dans un cadre pédagogique, en Master 1 à l'EPSI, pour le module "Pilotage & amélioration continue de la sécurité".
 
